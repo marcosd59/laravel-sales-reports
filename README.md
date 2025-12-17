@@ -8,6 +8,48 @@ Una aplicación web moderna y completa para gestionar y registrar ventas mensual
 
 Sistema de Ventas Mensuales es una aplicación web que permite registrar, organizar y analizar ingresos mensuales de manera eficiente. La aplicación permite gestionar ventas clasificadas por tipo de cliente (Nacional/Extranjero) y forma de pago (Efectivo, Débito, Crédito), con resúmenes automáticos y exportación de reportes en PDF.
 
+## Capturas de pantalla
+
+### Página de inicio
+
+![Página de inicio](public/images/Home.png)
+
+### Autenticación
+
+#### Login
+
+![Login](public/images/Login.png)
+
+#### Registro
+
+![Registro](public/images/Register.png)
+
+### Dashboard
+
+#### Modo claro
+
+![Dashboard - Modo claro](public/images/Dashboard.png)
+
+#### Modo oscuro
+
+![Dashboard - Modo oscuro](public/images/Dashboard-dark.png)
+
+### Gestión de ventas
+
+#### Modo claro
+
+![Ventas - Modo claro](public/images/Ventas.png)
+
+#### Modo oscuro
+
+![Ventas - Modo oscuro](public/images/Ventas-dark.png)
+
+### Exportación a PDF
+
+Ejemplo de reporte PDF generado:
+
+[📄 Ver ejemplo de PDF exportado](public/images/ventas_Diciembre_2025.pdf)
+
 ## Características principales
 
 -   **Registro de ventas**: Registro fácil y rápido de ventas con información detallada (cliente, tipo, forma de pago, importe)
@@ -303,6 +345,10 @@ php artisan tinker       # Abre la consola interactiva
     - Lista detallada de todas las ventas del mes
     - Total general
     - Fecha de generación
+
+**Ejemplo de PDF generado:**
+
+[📄 Descargar ejemplo de PDF](public/images/ventas_Diciembre_2025.pdf)
 
 ### Modo claro/oscuro
 
